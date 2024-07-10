@@ -15,13 +15,13 @@ export default function Homepage() {
             <div className="home-link">
                 <Link to="skills">
                 <p>Skills</p>
-                <img src=""></img>
+                <img src="https://th.bing.com/th?id=OIP.6UJ0WuvZsofgIQU4PcGCSQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></img>
                 </Link>
             </div>
             <div className="home-link">
                 <Link to="projects">
                 <p>Projects</p>
-                <img src=""></img>
+                <img src="https://static.vecteezy.com/system/resources/previews/003/738/370/original/management-project-icon-free-vector.jpg"></img>
                 </Link>
             </div>
             </div>
