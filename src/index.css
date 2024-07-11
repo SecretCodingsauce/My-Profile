@@ -5,3 +5,7 @@
 .card{
     @apply bg-white rounded-full overflow-hidden shadow-md max-w-36 max-h-36;
 }
+
+.logo{
+    @apply w-28 h-36 
+}
