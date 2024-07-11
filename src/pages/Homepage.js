@@ -15,16 +15,16 @@ export default function Homepage() {
 
             </div>
 
-            <div className="home-links flex">
-            <div className="home-link min-w-10 max-w-24 min-h-10 max-h-24 object-cover">
+            <div className="">
+            <div className="card">
                 <Link to="skills">
-                    <img src="https://th.bing.com/th?id=OIP.6UJ0WuvZsofgIQU4PcGCSQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></img>
-                    <span>Skills</span>
+                    <img  className="max-w-20 max-h-20" src="https://th.bing.com/th?id=OIP.6UJ0WuvZsofgIQU4PcGCSQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></img>
+                    <span >Skills</span>
                 </Link>
 
 
             </div>
-            <div className="home-link min-w-10 max-w-24 min-h-10 max-h-24 object-cover">
+            <div className="card">
                 <Link to="projects">
                
                 <img src="https://static.vecteezy.com/system/resources/previews/003/738/370/original/management-project-icon-free-vector.jpg"></img>

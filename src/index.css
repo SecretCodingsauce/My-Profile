@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card{
+    @apply bg-white rounded-full overflow-hidden shadow-md max-w-36 max-h-36;
+}
