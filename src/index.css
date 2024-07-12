@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .card{
-    @apply bg-white rounded-full overflow-hidden shadow-md max-w-36 max-h-36;
+    @apply bg-white justify-items-center
 }
 
 .logo{
-    @apply w-28 h-36 
+    @apply w-1/5 h-1/5 object-contain ml-5
+}
+
+.skill-icon{
+    @apply w-48 h-48 bg-white flex-row justify-center text-center items-center border-gray-200 shadow-xl rounded-lg border-2
 }

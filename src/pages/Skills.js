@@ -11,12 +11,12 @@ export default function Skills() {
         <div className="skills">
 
             <h2>Skills</h2>
-            <div className="skill-icons">
+            <div className="grid grid-cols-3 gap-4 p-4 justify-center">
                 <div className="skill-icon">
 
 
                     <img className="logo" src={htmllogo}></img>
-                    <span>HTML</span>
+                    <span >HTML</span>
                 </div>
                 <div className="skill-icon">
 
