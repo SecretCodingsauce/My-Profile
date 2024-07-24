@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.card{
+.card-lol{
     @apply flex border-2 border-black max-w-56 justify-between p-4 m-5 rounded-lg
 }
 
