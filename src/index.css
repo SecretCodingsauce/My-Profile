@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .card{
-    @apply bg-white justify-items-center
+    @apply flex justify-evenly mb-10 p-7 ml-4 min-w-56 border-solid border-8
 }
 
 .logo{
