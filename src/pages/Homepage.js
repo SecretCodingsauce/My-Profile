@@ -7,10 +7,10 @@ export default function Homepage() {
             <div className="home-content">
             <h2 className="text-3xl font-bold m-3">Hello World!</h2>
 
-            <div className=" p-3 text-xl mb-6">
-            <p>My name is Ayushman Sharma</p>
-            <p>I am a fresher Web Developer. Trying to fullfill all your web-dev needs.</p>
-            <p>Here are my skills and Projects</p>
+            <div className=" p-3 text-xl mb-6" >
+            <p className="pb-2">My name is <strong>Ayushman Sharma</strong></p>
+            <p className="pb-2">I am a fresher Web Developer. Trying to fullfill all your web-dev needs.</p>
+            <p className="pb-2">Here are my skills and Projects.</p>
             </div>
 
             </div>
