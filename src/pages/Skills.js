@@ -10,8 +10,8 @@ export default function Skills() {
     return (
         <div className="skills">
 
-            <h2>Skills</h2>
-            <div className="grid grid-cols-3 gap-4 p-4 justify-center">
+            <h2 className="text-3xl font-bold m-3">My Skills</h2>
+            <div className="grid grid-cols-3 justify-items-center">
                 <div className="skill-icon">
 
 

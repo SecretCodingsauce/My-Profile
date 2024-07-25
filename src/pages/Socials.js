@@ -1,7 +1,7 @@
 export default function Socials(){
     return(<div className="socials">
-        <h2>Socials</h2>
-        <div className="grid grid-cols-3 mt-4 gap-4 p-4 justify-center">
+        <h2 className="text-3xl font-bold m-3">Socials</h2>
+        <div className="grid grid-cols-3 justify-items-center mt-16">
                        
           <div className="skill-icon">
                 <a href="https://x.com/SirAyushman888" target="_blank">
