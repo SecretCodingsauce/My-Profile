@@ -11,7 +11,7 @@ export default function Projects (){
                 </a>
                 
                 
-            <div className='grid grid-cols-3 justify-items-center mt-10'>
+            <div className='sm:grid sm:grid-cols-3 sm:justify-items-center sm:mt-10  grid grid-cols-2 justify-items-center mt-10' >
             <div className="skill-icon">
                 <a href="" target="_blank">
                 <img className="logo" src={calculator}></img>

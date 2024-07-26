@@ -11,7 +11,7 @@ export default function Skills() {
         <div className="skills">
 
             <h2 className="text-3xl font-bold m-3">My Skills</h2>
-            <div className="grid grid-cols-3 justify-items-center">
+            <div className="sm:grid sm:grid-cols-3 sm:justify-items-center sm:mt-10  grid grid-cols-2 justify-items-center mt-10">
                 <div className="skill-icon">
 
 
