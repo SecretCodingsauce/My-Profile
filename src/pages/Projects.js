@@ -5,9 +5,9 @@ export default function Projects (){
         <div className="" >
            
                
-                <a className="flex border-2 border-none  justify-center p-2 m-5 ml-14 mr-14 rounded-lg bg-slate-500 min-w-max" href="https://github.com/SecretCodingsauce" target="_blank">
+                <a className="flex border-2 border-none  justify-center p-2 m-5 ml-14 mr-14 rounded-lg bg-slate-300 min-w-max hover:rounded-2xl hover:bg-slate-400 active:bg-slate-500  "  href="https://github.com/SecretCodingsauce" target="_blank">
                 <img className="max-w-14 max-h-14 object-contain" src={githublogo}></img>
-                <p className='mt-2 ps-4 text-center text-slate-100 text-3xl font-semibold'>Link to my Github</p>
+                <p className='mt-2 ps-4 text-center text-slate-600 text-3xl font-semibold'>Visit my Github</p>
                 </a>
                 
                 

@@ -7,10 +7,10 @@ export default function RootLayout (){
             <h2 className="text-2xl font-bold">My Profile</h2>
             <nav className="">
                 
-                <NavLink className="pl-5 pr-5 "to="/">Home</NavLink>
-                <NavLink className="pl-5 pr-5 "to ="skills">Skills</NavLink>
-                <NavLink className="pl-5 pr-5 "to="projects">Projects</NavLink>
-                <NavLink className="pl-5 pr-5 "to="socials">Socials</NavLink>
+                <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline "to="/">Home</NavLink>
+                <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline"to ="skills">Skills</NavLink>
+                <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline"to="projects">Projects</NavLink>
+                <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline "to="socials">Socials</NavLink>
                 
                
             </nav>

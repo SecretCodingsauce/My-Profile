@@ -1,26 +1,30 @@
+import twitter from './img/twitterpng.png'
+import linkedin from "./img/linkedinpng.png"
+import insta from "./img/instapng.png"
+
 export default function Socials(){
     return(<div className="socials">
         <h2 className="text-3xl font-bold m-3">Socials</h2>
         <div className="grid grid-cols-3 justify-items-center mt-16">
                        
-          <div className="skill-icon">
+          <div className="skill-icon ">
                 <a href="https://x.com/SirAyushman888" target="_blank">
                 
-                <img className="logo" src="https://th.bing.com/th?id=OIP.Xn27U1Y5z0KR-wPnCt-v0QHaG0&w=260&h=239&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></img>
+                <img className="logo" src={twitter}></img>
                 <span>Twitter/X</span>
                </a>
                </div>
           <div className="skill-icon">
                 <a href="https://www.linkedin.com/in/ayushman-sharma-77687b237/">
                 
-                <img className="logo" src="https://th.bing.com/th?id=OIP.T4bvEvcT3fsTRXfRD1HxpwD6D6&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></img>
+                <img className="logo" src={linkedin}></img>
                 <span>linkedin</span>
                </a>
                </div>
           <div className="skill-icon">
                 <a href="">
                 
-                <img  className="logo" src="https://th.bing.com/th?id=OIP.jPmHyBfNRs_TTPat6HyprQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"></img>
+                <img  className="logo" src={insta}></img>
                 <span>Instagram</span>
                </a>
                </div>
