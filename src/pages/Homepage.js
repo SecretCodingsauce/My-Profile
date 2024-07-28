@@ -33,7 +33,7 @@ export default function Homepage() {
 
                 <span className="font-bold text-lg pr-16">Projects</span>
                 </Link>
-           
+                
             </div>
 
         

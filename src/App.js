@@ -1,4 +1,4 @@
-import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Routes} from "react-router-dom"
+import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider, } from "react-router-dom"
 import './App.css';
 import RootLayout from "./Layouts/RootLayout";
 import Homepage from "./pages/Homepage";
@@ -6,6 +6,7 @@ import Socials from "./pages/Socials";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Certifications from "./pages/Certifications";
+import NotFound from "./pages/NotFound";
 const router=createBrowserRouter(
   createRoutesFromElements(
     
@@ -17,6 +18,7 @@ const router=createBrowserRouter(
         </Route>
         <Route path="projects" element={<Projects/>}/>
         
+        <Route path="*" element={<NotFound/>}/>
       </Route>
    
   )
