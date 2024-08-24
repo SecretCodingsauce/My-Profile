@@ -1,5 +1,7 @@
 import githublogo from './img/github.png'
 import calculator from "./img/icons8-calculator-64.png"
+import listicon from "./img/icons8-list-64.png"
+import quotesicon from "./img/icons8-quote-80.png"
 export default function Projects (){
     return (
         <div className="" >
@@ -13,39 +15,39 @@ export default function Projects (){
                 
             <div className='sm:grid sm:grid-cols-3 sm:justify-items-center sm:mt-10  grid grid-cols-2 justify-items-center mt-10' >
             <div className="skill-icon">
-                <a href="" target="_blank">
-                <img className="logo" src={calculator}></img>
-                <p>Simple Calculator App</p>
+                <a href="https://fetch-and-display-user-data.vercel.app/" target="_blank">
+                <img className="logo" src={listicon}></img>
+                <p className='text-sm'>Fetch and display Data</p>
+                </a>
+            </div>
+            <div className="skill-icon">
+                <a href="https://random-quote-fetcher.vercel.app/" target="_blank">
+                <img className="logo" src={quotesicon}></img>
+                <p className='text-xs'>Random Quote Generator</p>
                 </a>
             </div>
             <div className="skill-icon">
                 <a href="" target="_blank">
                 <img className="logo" src={calculator}></img>
-                <p>Simple Calculator App</p>
+                <p className='text-sm'>Simple Calculator App</p>
                 </a>
             </div>
             <div className="skill-icon">
                 <a href="" target="_blank">
                 <img className="logo" src={calculator}></img>
-                <p>Simple Calculator App</p>
+                <p className='text-sm'>Simple Calculator App</p>
                 </a>
             </div>
             <div className="skill-icon">
                 <a href="" target="_blank">
                 <img className="logo" src={calculator}></img>
-                <p>Simple Calculator App</p>
+                <p className='text-sm'>Simple Calculator App</p>
                 </a>
             </div>
             <div className="skill-icon">
                 <a href="" target="_blank">
                 <img className="logo" src={calculator}></img>
-                <p>Simple Calculator App</p>
-                </a>
-            </div>
-            <div className="skill-icon">
-                <a href="" target="_blank">
-                <img className="logo" src={calculator}></img>
-                <p>Simple Calculator App</p>
+                <p className='text-sm'>Simple Calculator App</p>
                 </a>
             </div>
             </div>
