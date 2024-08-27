@@ -17,7 +17,7 @@ export default function Projects (){
             <div className="skill-icon">
                 <a href="https://fetch-and-display-user-data.vercel.app/" target="_blank">
                 <img className="logo" src={listicon}></img>
-                <p className='text-sm'>Fetch and display Data</p>
+                <p className='text-xs'>Fetch and display Data</p>
                 </a>
             </div>
             <div className="skill-icon">
@@ -27,27 +27,27 @@ export default function Projects (){
                 </a>
             </div>
             <div className="skill-icon">
-                <a href="" target="_blank">
+                <a href="https://simple-calculator-beige.vercel.app/" target="_blank">
                 <img className="logo" src={calculator}></img>
-                <p className='text-sm'>Simple Calculator App</p>
+                <p className='text-xs'>Simple Calculator App</p>
                 </a>
             </div>
             <div className="skill-icon">
                 <a href="" target="_blank">
                 <img className="logo" src={calculator}></img>
-                <p className='text-sm'>Simple Calculator App</p>
+                <p className='text-xs'>Simple Calculator App</p>
                 </a>
             </div>
             <div className="skill-icon">
                 <a href="" target="_blank">
                 <img className="logo" src={calculator}></img>
-                <p className='text-sm'>Simple Calculator App</p>
+                <p className='text-xs'>Simple Calculator App</p>
                 </a>
             </div>
             <div className="skill-icon">
                 <a href="" target="_blank">
                 <img className="logo" src={calculator}></img>
-                <p className='text-sm'>Simple Calculator App</p>
+                <p className='text-xs'>Simple Calculator App</p>
                 </a>
             </div>
             </div>
