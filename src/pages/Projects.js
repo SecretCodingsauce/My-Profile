@@ -2,6 +2,7 @@ import githublogo from './img/github.png'
 import calculator from "./img/icons8-calculator-64.png"
 import listicon from "./img/icons8-list-64.png"
 import quotesicon from "./img/icons8-quote-80.png"
+import weathericon from "./img/icons8-weather-app-100.png"
 export default function Projects (){
     return (
         <div className="" >
@@ -33,9 +34,9 @@ export default function Projects (){
                 </a>
             </div>
             <div className="skill-icon">
-                <a href="" target="_blank">
-                <img className="logo" src={calculator}></img>
-                <p className='text-xs'>Simple Calculator App</p>
+                <a href="https://my-weather-app-secretcodingsauces-projects.vercel.app/" target="_blank">
+                <img className="logo" src={weathericon}></img>
+                <p className='text-xs'>Simple Weather App</p>
                 </a>
             </div>
             <div className="skill-icon">
