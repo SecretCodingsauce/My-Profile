@@ -22,7 +22,7 @@ export default function RootLayout (){
                 
                 <div className={`w-full md:w-auto md:flex ${isMenuOpen ? 'block' : 'hidden' }`}>
                     <ul className="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0">
-                <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline "to="/">Home</NavLink>
+                <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline "to="home">Home</NavLink>
                 <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline"to ="skills">Skills</NavLink>
                 <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline"to="projects">Projects</NavLink>
                 <NavLink className="pl-5 pr-5 hover:font-semibold hover:underline "to="socials">Socials</NavLink>
