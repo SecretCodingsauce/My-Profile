@@ -10,8 +10,8 @@ import NotFound from "./pages/NotFound";
 const router = createBrowserRouter(
   createRoutesFromElements(
 
-    <Route path="home" element={<RootLayout />}>
-      <Route path="home" element={<Homepage />} />
+    <Route path="/" element={<RootLayout />}>
+      <Route path="/" element={<Homepage />} />
       <Route path="socials" element={<Socials />} />
       <Route path="skills" element={<Skills />}>
         <Route path="certifications" element={<Certifications />} />
